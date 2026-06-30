@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IdDiqkIKYQg=",
+  "dgSpecHash": "7M0u5+nl7S0=",
   "success": true,
-  "projectFilePath": "/Users/karahanbuhan/Documents/Development/SirketBilgiAPI/SirketBilgiAPI.csproj",
+  "projectFilePath": "C:\\Users\\Karahan\\source\\repos\\sirket-bilgi-api\\SirketBilgiAPI.csproj",
   "expectedPackageFiles": [
-    "/Users/karahanbuhan/.nuget/packages/microsoft.aspnetcore.openapi/10.0.9/microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
-    "/Users/karahanbuhan/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\Karahan\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "C:\\Users\\Karahan\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
   ],
   "logs": []
 }
