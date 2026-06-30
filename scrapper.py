@@ -29,7 +29,7 @@ mvalues = [0] * 5000
 bvalues = [0] * 5000
 
 #for url in urls:
-for j in range(40, 2000):
+for j in range(172, 2000):
     res = requests.get(urls[j], allow_redirects=False)
     soup = BeautifulSoup(res.content, "html.parser")
 
