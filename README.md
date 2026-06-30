@@ -19,7 +19,8 @@
     "bookValue": 7958722914,
     "marketValue": 2.65
 },
-...```
+...
+```
 
 ## Kullanılan Araçlar
 Visual Studio Code üzerinden .NET, C#, C# Dev Kit ve Python eklentileri ile hazırlanmıştır.
