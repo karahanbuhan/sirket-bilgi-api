@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SirketBilgiAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7b6cb8c08eefc66221f7834b516deae10f7102c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e9c5c42d3310ebd766ad935b9e58e1b42861f17")]
 [assembly: System.Reflection.AssemblyProductAttribute("SirketBilgiAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SirketBilgiAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

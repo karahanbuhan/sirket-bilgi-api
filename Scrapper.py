@@ -4,18 +4,18 @@ import time
 from time import sleep
 import sys
 
-# Step 1: Get names of pages and urls
-
-res = requests.get("https://www.borsaningundemi.com/piyasa-ekrani/bist-hisseler")
-soup = BeautifulSoup(res.content, "html.parser")
-
-content = soup.find_all(class_="mix")
+# Read all stocks from Borsanın Gündemi Web Page
+bist_stocks = requests.get("https://www.borsaningundemi.com/piyasa-ekrani/bist-hisseler")
+soup = BeautifulSoup(bist_stocks.content, "html.parser")
 
 companies = []
 urls = []
 for li in soup.find_all("li"):
+    # Do not add empty li elements
     if li.get("class") is None:
         continue
+    
+    
     classes = li.get("class")
     for c in classes:
         if c.startswith("name_"):
